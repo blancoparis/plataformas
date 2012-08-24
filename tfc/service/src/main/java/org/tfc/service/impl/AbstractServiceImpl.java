@@ -12,11 +12,14 @@ import org.tfc.utils.GenericUtils;
 public class AbstractServiceImpl <T extends EntityBD<ID>, ID extends Serializable>
 implements AbstractService<T,ID>{
 	
+	@SuppressWarnings("unused")
 	private Class<T> clazzT;
+	@SuppressWarnings("unused")
 	private Class<ID> clazzID;
 	
 	public AbstractJpaDao<T,ID> dao;
 
+	@SuppressWarnings("unchecked")
 	public AbstractServiceImpl(AbstractJpaDao<T, ID> dao) {
 		super();
 		clazzT = (Class<T>) GenericUtils

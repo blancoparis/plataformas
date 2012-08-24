@@ -11,6 +11,7 @@ public class UsuarioServiceImpl
 	extends AbstractServiceImpl<Usuario, Long>
 	implements UsuarioService{
 
+	@SuppressWarnings("unused")
 	private UsuarioDao dao;
 	@Autowired
 	private UsuarioServiceImpl( UsuarioDao  dao) {

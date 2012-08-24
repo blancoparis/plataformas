@@ -30,6 +30,7 @@ public abstract class AbstractJpaDaoImpl<T extends EntityBD<ID>, ID extends Seri
 	@PersistenceContext
 	EntityManager entityManager;
 
+	@SuppressWarnings("unchecked")
 	public AbstractJpaDaoImpl() {
 		super();
 		clazzT = (Class<T>) GenericUtils
@@ -40,6 +41,7 @@ public abstract class AbstractJpaDaoImpl<T extends EntityBD<ID>, ID extends Seri
 		return entityManager.find(clazzT, id);
 	}
 
+	@SuppressWarnings("unchecked")
 	public List<T> findAll() {
 		return entityManager.createQuery("from " + clazzT.getName())
 				.getResultList();

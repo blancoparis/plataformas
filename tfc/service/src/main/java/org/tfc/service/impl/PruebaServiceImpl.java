@@ -11,6 +11,7 @@ public class PruebaServiceImpl
 	extends AbstractServiceImpl<Prueba, Long>
 	implements PruebaService{
 
+	@SuppressWarnings("unused")
 	private PruebaDao dao;
 	@Autowired
 	private PruebaServiceImpl( PruebaDao  dao) {
