@@ -8,6 +8,7 @@ import javax.persistence.Id;
 import org.tfc.EntityBD;
 
 
+@SuppressWarnings("serial")
 @Entity
 public class Prueba implements EntityBD<Long>{
 	@Id

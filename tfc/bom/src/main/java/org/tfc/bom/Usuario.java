@@ -6,6 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import org.tfc.EntityBD;
+@SuppressWarnings("serial")
 @Entity
 public class Usuario implements EntityBD<Long>{
 	@Id

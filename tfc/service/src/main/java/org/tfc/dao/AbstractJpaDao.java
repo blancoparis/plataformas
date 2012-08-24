@@ -3,8 +3,6 @@ package org.tfc.dao;
 import java.io.Serializable;
 import java.util.List;
 
-import javax.persistence.EntityManager;
-
 import org.tfc.EntityBD;
 /**
  * Intefaz donde definimos las operaciones basicas para el tema de los dao
