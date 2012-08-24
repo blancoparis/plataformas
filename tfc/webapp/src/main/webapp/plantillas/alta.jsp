@@ -98,7 +98,7 @@
 		        <article>	
 		        	<section>
 						<h1> Tabla de resultados</h1>	
-						<table cellpadding="0" cellspacing="0" border="0" class="display" id="example">
+						<table  border="0" class="display" id="example">
 	<thead>
 		<tr>
 			<th>Rendering engine</th>

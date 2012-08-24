@@ -4,8 +4,8 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<artifactId>tfc</artifactId>
-		<groupId>org.tfc</groupId>
+		<artifactId>plataforma</artifactId>
+		<groupId>org.dbp</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<properties>
@@ -27,7 +27,7 @@
 		</dependency>
 	    <!-- Dependencias -->
 		<dependency>
-			<groupId>org.tfc</groupId>
+			<groupId>org.dbp</groupId>
 			<artifactId>bom</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
